@@ -81,7 +81,7 @@ const Home: React.FC = () => {
                     <div className="flex items-center justify-between">
                       <div className="flex items-center">
                         <div className="w-4 h-4 border border-gray-300 rounded-sm mr-2"></div>
-                        <span>Milk</span>
+                        <span className="text-gray-900">Milk</span>
                       </div>
                       <span className="text-gray-600">$3.99</span>
                     </div>
@@ -97,14 +97,14 @@ const Home: React.FC = () => {
                     <div className="flex items-center justify-between">
                       <div className="flex items-center">
                         <div className="w-4 h-4 border border-gray-300 rounded-sm mr-2"></div>
-                        <span>Bread</span>
+                        <span className="text-gray-900">Bread</span>
                       </div>
                       <span className="text-gray-600">$1.99</span>
                     </div>
                   </div>
                   <div className="mt-4 pt-3 border-t border-gray-200 flex justify-between">
-                    <span className="font-medium">Total</span>
-                    <span className="font-bold">$8.47</span>
+                    <span className="font-medium text-gray-900">Total</span>
+                    <span className="font-bold text-gray-900">$8.47</span>
                   </div>
                 </div>
                 
