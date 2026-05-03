@@ -44,6 +44,8 @@ const Home: React.FC = () => {
                   </Button>
                 </div>
               </div>
+              
+              {/*
               <div className="relative flex justify-center md:justify-end">
                 <div className="relative w-[320px] md:w-[380px] scale-90 md:scale-100">
                   <TestimonialCard
@@ -69,6 +71,58 @@ const Home: React.FC = () => {
               </div>
             </div>
           </div>
+          */}
+
+           <div className="relative flex justify-center md:justify-end">
+              <div className="relative w-[320px] md:w-[380px] scale-90 md:scale-100">
+                <div className="bg-white p-6 rounded-lg shadow-lg transform rotate-3 animate-float">
+                  <div className="font-medium text-gray-900 mb-3">Weekly Groceries</div>
+                  <div className="space-y-2">
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center">
+                        <div className="w-4 h-4 border border-gray-300 rounded-sm mr-2"></div>
+                        <span>Milk</span>
+                      </div>
+                      <span className="text-gray-600">$3.99</span>
+                    </div>
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center">
+                        <div className="w-4 h-4 bg-blue-500 text-white border border-blue-500 rounded-sm flex items-center justify-center mr-2">
+                          <Check className="h-3 w-3" />
+                        </div>
+                        <span className="line-through text-gray-500">Eggs</span>
+                      </div>
+                      <span className="text-gray-500">$2.49</span>
+                    </div>
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center">
+                        <div className="w-4 h-4 border border-gray-300 rounded-sm mr-2"></div>
+                        <span>Bread</span>
+                      </div>
+                      <span className="text-gray-600">$1.99</span>
+                    </div>
+                  </div>
+                  <div className="mt-4 pt-3 border-t border-gray-200 flex justify-between">
+                    <span className="font-medium">Total</span>
+                    <span className="font-bold">$8.47</span>
+                  </div>
+                </div>
+                
+                <div className="absolute top-1/4 -right-4 bg-white p-4 rounded-lg shadow-lg transform -rotate-6 animate-float-delayed">
+                  <div className="w-16 h-14 flex items-center justify-center">
+                    <DollarSign className="h-10 w-10 text-green-500" />
+                  </div>
+                </div>
+                
+                <div className="absolute bottom-0 -left-6 bg-white p-4 rounded-lg shadow-lg transform rotate-12 animate-float">
+                  <div className="w-14 h-14 flex items-center justify-center">
+                    <Share className="h-7 w-7 text-blue-500" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>   
         </section>
         
         {/* Features Section */}
