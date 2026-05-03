@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ShoppingBag, Share, DollarSign } from 'lucide-react';
+import { ShoppingBag, Share, DollarSign, Check } from 'lucide-react';
 import Header from '../components/layout/Header';
 import Button from '../components/ui/Button';
 import DownloadButtons from '../components/ui/DownloadButtons';
