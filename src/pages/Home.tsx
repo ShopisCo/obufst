@@ -75,7 +75,7 @@ const Home: React.FC = () => {
 
            <div className="relative flex justify-center md:justify-end">
               <div className="relative w-[320px] md:w-[380px] scale-90 md:scale-100">
-                <div className="bg-white p-6 rounded-lg shadow-lg transform rotate-3 animate-float">
+                <div className="bg-white p-6 rounded-lg shadow-lg transform rotate-3 animate-float text-gray-900">
                   <div className="font-medium text-gray-900 mb-3">Weekly Groceries</div>
                   <div className="space-y-2">
                     <div className="flex items-center justify-between">
